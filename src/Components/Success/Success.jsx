@@ -13,7 +13,7 @@ export default function Success() {
     <section
       className="
         w-full bg-white flex justify-center items-center
-        py-[80px] px-[24px]
+        py-[81px] px-[24px]
         min-[992px]:max-[1199px]:py-[64px]
         min-[768px]:max-[991px]:py-[56px]
         min-[568px]:max-[767px]:py-[48px]
