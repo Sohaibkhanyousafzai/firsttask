@@ -1,0 +1,638 @@
+.hero-section {
+  width: 100%;
+  max-height: 125vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: hidden !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.abc {
+  width: 100%;
+  background-color: #43BFC7;
+  display: inline-block;
+  max-height: 105vh;
+}
+
+.bottom-design {
+  max-height: -50vh;
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #43BFC7;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  margin-top: -25px;
+  overflow: hidden;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 120px 80px 80px 80px;
+  gap: 40px;
+}
+
+.text-section {
+  max-width: 680px;
+  margin-top: 210px;
+  margin-left: -192px;
+  color: #ffffff;
+}
+
+.text-section h1 {
+  font-size: 54px;
+  line-height: 1.50;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.text-section h1 span {
+  color: #ff7518;
+}
+
+.text-section p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "Nunito Sans", sans-serif;
+  opacity: 0.95;
+  margin-top: 36px;
+  margin-left: -3px;
+}
+
+.buttons-group {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 24px;
+}
+
+.btn-join-free {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  padding: 22px 37px;
+  border-radius: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-join-free:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.btn-watch {
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  border: none;
+  color: #233038;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.play-icon {
+  width: 78px;
+  margin-left: 18px;
+  height: 78px;
+  background-color: #ffffff;
+  color: #57B9FF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 31px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.image-section {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 135px;
+}
+
+.hero-image {
+  width: 540px;
+  margin-top: 40px;
+  margin-right: 2px;
+  height: auto;
+  display: block;
+  z-index: 1;
+  transform: translateY(-70px) translateX(60px);
+}
+
+.hero-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.glass-card {
+  position: absolute;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 14px 22px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
+  display: flex;
+  margin-top: 76px;
+  gap: 14px;
+  margin-left: -2px;
+  width: max-content;
+}
+
+.icon-wrapper {
+  width: 51px;
+  height: 51px;
+  border-radius: 12px;
+  display: flex;
+}
+
+.icon-wrapper img {
+  margin-top: 8px;
+  width: 51px;
+  height: 51px;
+  justify-content: center;
+}
+
+.blue-bg {
+  background-color: #1ea2e4;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.glass-card h3 {
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: 24px;
+  color: grey;
+  font-weight: 700;
+}
+
+.glass-card p {
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 25px;
+  margin-top: -5px;
+  font-size: 20px;
+  color: #5a6578;
+  font-weight: 500;
+}
+
+.card-assisted {
+  top: 5.5%;
+  width: 300px;
+  left: -25%;
+  padding-bottom: 38px;
+  background: rgba(255, 255, 255, 0.75);
+  height: 100px;
+}
+
+.card-class {
+  height: max-content;
+  bottom: 18%;
+  left: -27.5%;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 390px;
+  padding: 26px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+.avatar-wrapper {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.avatar-img {
+  width: 50px;
+  margin-top: -5px;
+  margin-left: 14px;
+  height: 57px;
+  border-radius: 50%;
+}
+.online-dot {
+  position: absolute;
+  bottom: -10px;
+  right: -20px;
+  width: 15px;
+  height: 15px;
+  background-color: #2ecc71;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.btn-card-join {
+  margin-top: 14px;
+  margin-left: 83px;
+  width: 174px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 25px;
+  background-color: #d65982;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.card-congrats {
+  bottom: 45%;
+  height: 110px;
+  padding-bottom: 38px;
+  width: 380px;
+  right: -43%;
+  background: rgba(255, 255, 255, 0.65);
+}
+.pink-chart-badge {
+  position: absolute;
+  top: 8%;
+  right: -22%;
+  width: 65px;
+  height: 65px;
+  background-color: #f8577c;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(248, 87, 124, 0.3);
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3px;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
+.bar {
+  width: 5px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.bar-short {
+  height: 20px;
+}
+.bar-tall {
+  height: 40px;
+}
+.bar-medium {
+  height: 28px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero-section,
+  .abc {
+    max-height: none;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 16px 40px 16px;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .text-section {
+    max-width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .text-section h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .text-section p {
+    font-size: 15px;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+
+  .buttons-group {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .btn-join-free {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .btn-watch {
+    font-size: 16px;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .play-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .image-section {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 0;
+    margin-right: 0;
+    transform: none;
+    z-index: 1;
+  }
+
+  .glass-card {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+    margin: 12px auto;
+    width: 100%;
+    max-width: 290px;
+    padding: 12px;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .glass-card h3 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+
+  .glass-card p {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .icon-wrapper,
+  .icon-wrapper img {
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+  }
+
+  .card-assisted,
+  .card-class,
+  .card-congrats {
+    height: auto;
+    padding-bottom: 16px;
+  }
+
+  .btn-card-join {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .avatar-img {
+    width: 36px;
+    height: 36px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .pink-chart-badge {
+    display: none;
+  }
+
+  .bottom-design {
+    max-height: none;
+    padding-bottom: 40px;
+    margin-top: 0;
+    border-radius: 0 0 50px 50px;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+  .hero-container{
+    max-width:100%;
+    padding:120px 40px 60px;
+    gap:30px;
+    align-items:center;
+  }
+
+  .text-section{
+    max-width:50%;
+    margin-top:80px;
+    margin-left:0;
+  }
+
+  .text-section h1{
+    font-size:40px;
+    line-height:1.4;
+  }
+
+  .text-section p{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:0;
+  }
+
+  .buttons-group{
+    gap:18px;
+    margin-top:35px;
+  }
+
+  .btn-join-free{
+    padding:16px 28px;
+    font-size:18px;
+  }
+
+  .btn-watch{
+    font-size:18px;
+    gap:18px;
+  }
+
+  .play-icon{
+    width:60px;
+    height:60px;
+    font-size:22px;
+    margin-left:0;
+  }
+
+  .image-section{
+    margin-top:70px;
+  }
+
+  .hero-image{
+    width:380px;
+    transform:translateY(-20px) translateX(0);
+    margin:0;
+  }
+
+  .glass-card{
+    padding:12px 18px;
+  }
+
+  .glass-card h3{
+    font-size:18px;
+    margin-left:12px;
+  }
+
+  .glass-card p{
+    font-size:15px;
+    margin-left:12px;
+  }
+
+  .card-assisted{
+    width:250px;
+    left:-18%;
+    top:6%;
+  }
+
+  .card-class{
+    width:300px;
+    left:-18%;
+    bottom:10%;
+  }
+
+  .card-congrats{
+    width:280px;
+    right:-18%;
+    bottom:42%;
+  }
+
+  .btn-card-join{
+    width:150px;
+    margin-left:65px;
+  }
+
+  .pink-chart-badge{
+    width:55px;
+    height:55px;
+    right:-12%;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+
+  .hero-container{
+    max-width:1100px;
+    padding:120px 50px 70px;
+    gap:40px;
+  }
+
+  .text-section{
+    max-width:560px;
+    margin-top:130px;
+    margin-left:0;
+  }
+
+  .text-section h1{
+    font-size:46px;
+  }
+
+  .text-section p{
+    font-size:20px;
+    margin-left:0;
+  }
+
+  .buttons-group{
+    margin-top:40px;
+  }
+
+  .btn-join-free{
+    font-size:20px;
+    padding:18px 32px;
+  }
+
+  .btn-watch{
+    font-size:20px;
+    gap:20px;
+  }
+
+  .play-icon{
+    width:68px;
+    height:68px;
+    font-size:26px;
+    margin-left:0;
+  }
+
+  .image-section{
+    margin-top:100px;
+  }
+
+  .hero-image{
+    width:460px;
+    transform:translateY(-40px) translateX(20px);
+  }
+
+  .card-assisted{
+    width:270px;
+    left:-20%;
+  }
+
+  .card-class{
+    width:340px;
+    left:-20%;
+    bottom:14%;
+  }
+
+  .card-congrats{
+    width:320px;
+    right:-22%;
+    bottom:44%;
+  }
+
+  .glass-card h3{
+    font-size:20px;
+  }
+
+  .glass-card p{
+    font-size:17px;
+  }
+
+  .pink-chart-badge{
+    width:60px;
+    height:60px;
+    right:-15%;
+  }
+
+}

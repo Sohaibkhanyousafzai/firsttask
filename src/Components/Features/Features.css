@@ -1,0 +1,167 @@
+.features {
+  width: 100%;
+  padding: 80px 8%;
+  text-align: center;
+  margin-top: 30px;
+}
+.features h1,
+.features h2,
+.features .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;      
+  font-weight: 600;
+  margin-bottom: 33px;
+  gap: 50px;
+  line-height: 1.3;
+  
+}
+
+.feature-para {
+    font-family: "Poppins", sans-serif;
+
+  max-width: 950px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px auto 80px;
+  color: #696984;
+  line-height: 1.4;
+}
+
+
+.feature-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+
+.feature-left {
+  flex: 1;
+}
+
+.meeting-card {
+  background: #f7f7f7;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.window-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.window-bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.window-bar span:nth-child(1) {
+  background: #ff6b6b;
+}
+
+.window-bar span:nth-child(2) {
+  background: #ffd93d;
+}
+
+.window-bar span:nth-child(3) {
+  background: #6bcf63;
+}
+
+.meeting-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+.big-user {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  grid-row: span 2;
+}
+
+.small-user {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.meeting-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.present-btn,
+.call-btn {
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.present-btn {
+  background: #3465ff;
+}
+
+.call-btn {
+  background: #ff4d8d;
+}
+
+
+.feature-right {
+  flex: 1;
+  text-align: left;
+}
+
+.feature-right h2 {
+  font-size: 30px;
+  color: #2f327d;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.feature-right h2 span {
+  color: #00cbb8;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.icon-box {
+  width: 55px;
+  height: 55px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2f327d;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.feature-item p {
+  color: #696984;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+
+
+
+
