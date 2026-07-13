@@ -45,7 +45,7 @@ const Totc = () => {
               FOR INSTRUCTIONS
             </h3>
             <button className="px-[18px] py-2 border-none rounded-[20px] bg-gray-500 hover:bg-gray-600 transition-colors text-white font-medium text-[13px] min-[568px]:text-[15px]">
-              Start a class today
+              Start a class today.
             </button>
           </div>
         </div>
