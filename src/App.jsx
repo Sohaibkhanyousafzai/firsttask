@@ -6,6 +6,7 @@ import Totc from './Components/TOTC/Totc'
 import Footer from './Components/Footer/Footer'
 import Features from './Components/Features/Features'
 import ContactUs from './Components/Contactus/ContactUs'
+import Cards from './Components/Cards/Cards'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <Cloud />
       <Totc />
       <Features />
+      <Cards/>
       <ContactUs/>
       <Footer />
     </>

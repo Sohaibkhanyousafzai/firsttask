@@ -23,20 +23,20 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
 
-     <div className={`nav-menu ${menuOpen ? "active" : ""}`}>
-  <p onClick={() => setMenuOpen(false)}>Home</p>
-  <p onClick={() => setMenuOpen(false)}>Courses</p>
-  <p onClick={() => setMenuOpen(false)}>Careers</p>
-  <p onClick={() => setMenuOpen(false)}>Blog</p>
-  <p onClick={() => setMenuOpen(false)}>About us</p>
-</div>
+      <div className={`nav-menu ${menuOpen ? "active" : ""}`}>
+        <p >Home</p>
+        <p >Courses</p>
+        <p >Careers</p>
+        <p >Blog</p>
+        <p >About us</p>
+      </div>
 
-<div className="nav-button">
-  <button>Login</button>
-  <button>Signup</button>
-</div>
+      <div className="nav-button">
+        <button>Login</button>
+        <button>Signup</button>
+      </div>
 
-
+      
 
     </nav>
   );
